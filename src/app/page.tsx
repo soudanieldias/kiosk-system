@@ -14,7 +14,7 @@ export default function Home() {
           {KIOSKS.map((kiosk) => (
             <Link
               key={kiosk.id}
-              href={`/quiosque/${kiosk.slug}`}
+              href={`/kiosk/${kiosk.slug}`}
               className="rounded-lg shadow-lg p-8 hover:shadow-2xl hover:scale-105 transition-all text-white text-center font-semibold"
               style={{ backgroundColor: kiosk.color || '#DA291C' }}
             >
